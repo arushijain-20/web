@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7vw;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    
+}
+.card{
+   margin: 2%;
+   padding: 2%;
+   
+    
+}
+img{
+    width:80% ;
+    margin:2% 10%;
+}
+a{
+    text-decoration:none ;
+    color: darkgreen;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+}
