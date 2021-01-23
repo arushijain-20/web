@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+img{
+    display: block;
+    margin: auto;
+     height: 30vh;
+     animation: rotate 5s infinite linear;
+ 
+ }
+ 
+ @keyframes rotate{
+     0%{
+         transform: rotateY(0deg);
+     }
+     100%{
+         transform: rotateY(359deg);
+     }
+ }
+
+h1{
+    color: #589b64;
+    text-align: center;
+    font-size: 2.5rem;
+   
+}
+
+p{
+    text-align: center;
+    margin: 2%;
+    font-size:2rem ;
+    font-style: italic;
+    color:#4b6f6e ;
+}
+
+.container{
+
+    width: 30%;
+    margin:5% auto;
+   
+}
+
+.currency{
+    margin: 5%;
+}
+.currency select{
+    padding:2% 5% ;
+    
+    border-radius: 2px;
+    font-size: 1.5rem;
+  
+    background-color: white;
+}
+.currency input{
+    border:none;
+   font-size: 2rem;
+    font-weight: bold;
+    float: right;
+   width: 50%;
+    text-align: right;
+    background-color: whitesmoke;
+}
+.currency input:focus{
+    border:none;
+    outline: none;
+}
+
+.swap-rate-container{
+    margin: 10% 2%;
+
+}
+.swap-rate-container button{
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #589b64;
+    border: solid #589b64 1px;
+    border-radius: 2px ;
+    color: white ;
+    margin: 5% 2%;
+   
+  
+}
+#rate{
+    float: right;
+    color: #589b64;
+    font-size: large;
+    margin: 5% 2%;
+    padding-top: 10px ;
+
+}
