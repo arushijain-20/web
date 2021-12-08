@@ -1,0 +1,27 @@
+.right{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+.heading{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #f17b76;
+  margin-top: 10%;
+}
+.logo img{
+  width: 50%;
+}
+.right button{
+    background-color: black;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+.info{
+display: flex;
+flex-direction: column;
+}

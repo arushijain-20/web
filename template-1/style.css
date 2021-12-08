@@ -64,7 +64,7 @@ padding: 2% 5%;
   }
 
   .container{
-      
+
     margin-top: 5%;
   
     
@@ -102,28 +102,50 @@ padding: 2% 5%;
     height: inherit;
     border-radius: 50%;
 }
+
 .right{
-    width: 40%;
-    float: right;
-    margin-right: 10%;
+  float: right;
+  width: 70%;
+
 }
-.heading{
-  font-family: 'Dancing Script', cursive;
-  font-size: 3rem;
-  color: #f17b76;
-  margin-top: 10%;
+.logo{
+  width: 30%;
+  margin: auto;
 }
-.right img{
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.arrow{
+  transform: translate(-50px,50px);
+}
+.arrow img{
+  height: 200px;
+  
+ 
+}
+.para{
   width: 50%;
 }
-.right button{
-    background-color: black;
-    width: 100px;
-    padding: 10px;
-    color: white;
-    border: none;
-    border-radius: 10%;
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 5s linear forwards;
 }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
   
   @media (max-width:600px) {
     .nav  .nav-btn {
